@@ -41,10 +41,26 @@
 
 ### Шаг 3: Установка и запуск на компьютере
 
-## 1. **Скачайте код бота**:
+1. **Скачайте код бота**:
 ```bash
 git clone https://github.com/MishaSov/chat_bot_tg.git
 ```
-# Или просто создайте файл bot.py и скопируйте код из этого репозитория.
+Или просто создайте файл bot.py и скопируйте код из этого репозитория.
 
-# 2. Установите библиотеку: pip install pyTelegramBotAPI и подставьте свои значения
+2. Установите библиотеку: **pip install pyTelegramBotAPI**
+
+3. Откройте файл bot.py в любом редакторе (Блокнот, VS Code) и замените следующие параметры:
+
+- TOKEN = ''      токен от @BotFather
+- CHANNEL_ID =    ID канала от @getmyid_bot
+- GROUP_ID =      ID группы от @getmyid_bot
+
+# Ссылка на картинку для комментария (можно загрузить в Telegram и скопировать ссылку)
+IMAGE_URL = 'https://example.com/your-image.jpg'
+
+# Текст комментария
+COMMENT_TEXT = "Hi"
+
+# Ссылки для кнопок
+button1 = "https://t.me/your_chat_link" 
+button2  = "https://"                       
